@@ -1,0 +1,160 @@
+
+<div class="container">
+<form method="POST" action="/mauvat/store" enctype="multipart/form-data" style="margin-top: 100px;">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Số hiệu BTTNVN</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="So_hieu_bttnvn" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Tên khoa học</label>
+    <input type="text" class="form-control" name="Ten_kh" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Tên Việt Nam</label>
+    <input type="text" class="form-control" name="Ten_vn" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Tên địa phương</label>
+    <input type="text" class="form-control" name="Ten_dia_phuong" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Tên tiếng anh</label>
+    <input type="text" class="form-control" name="Ten_tieng_anh" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Thuộc giới</label>
+    <input type="text" class="form-control" name="Gioi" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Ngành</label>
+    <input type="text" class="form-control" name="Nganh" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Lớp</label>
+    <input type="text" class="form-control" name="Lop" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Bộ</label>
+    <input type="text" class="form-control" name="Bo" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Họ</label>
+    <input type="text" class="form-control" name="Ho" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Giống</label>
+    <input type="text" class="form-control" name="Giong" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Loài</label>
+    <input type="text" class="form-control" name="Loai" id="">
+  </div>
+  <div class="form-group">
+    <div class="row"><label for="exampleInputPassword1">Giới tính</label>
+      <div class="col-md-3">
+        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+        <select class="custom-select mr-sm-2" name="Gioi_tinh" id="inlineFormCustomSelect">
+          <option selected>Choose...</option>
+          <option value="Đực">Đực</option>
+          <option value="Cái">Cái</option>
+          <option value="Lưỡng tính">Lưỡng tính</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Người định tên</label>
+    <input type="text" class="form-control" name="Nguoi_dinh_ten" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Ngày định tên</label>
+    <input type="datetime" class="form-control" name="Ngay_dinh_ten" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Số lượng</label>
+    <input type="number" class="form-control" name="So_luong" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Loại mẫu vật</label>
+    <input type="text" class="form-control" name="Loai_mau_vat" id="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Cao</label>
+    <input type="text" class="form-control" name="Cao" id="">
+    <select name="height" required="">
+      <option selected>Choose...</option>
+      <option value="">mm</option>
+      <option value="">cm</option>
+      <option value="">m</option>
+    </select>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Rộng</label>
+    <input type="text" class="form-control" name="Rong" id="">
+    <select name="" required="">
+      <option selected>Choose...</option>
+      <option value="">mm</option>
+      <option value="">cm</option>
+      <option value="">m</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Dài</label>
+    <input type="text" class="form-control" name="Dai" id="">
+    <select name="" required="">
+      <option selected>Choose...</option>
+      <option value="">mm</option>
+      <option value="">cm</option>
+      <option value="">m</option>
+    </select>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Trọng lượng</label>
+    <input type="text" class="form-control" name="Trong_luong" id="">
+    <select name="" required="">
+      <option selected>Choose...</option>
+      <option value="">g</option>
+      <option value="">kg</option>
+      <option value="">nghìn kg</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Thể tích</label>
+    <input type="text" class="form-control" name="The_tich" id="">
+    <select name="" required="">
+      <option selected>Choose...</option>
+      <option value="">mm^3</option>
+      <option value="">cm^3</option>
+      <option value="">m^3</option>
+  </div>
+  <div class="form-group">
+    <select name="Quoc_gia" required="">
+      <option value="">Việt Nam</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <select name="Tinh" required="">
+      <option value="">Tỉnh / Thành phố</option>
+    </select>
+    <select name="Huyen" required="">
+      <option value="">Quận / Huyện</option>
+    </select>
+    <input class="billing_address_1" name="" type="hidden" value="">
+    <input class="billing_address_2" name="" type="hidden" value="">
+  </div>
+  <div class="form-group">
+    <label for="">Ảnh</label>
+    <br>
+    <input type="file" name="Image" id=""><br><br>
+    </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Video</label>
+    <br>
+    <input type="file" name="Video" id=""><br><br>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
