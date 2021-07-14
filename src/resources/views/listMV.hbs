@@ -2,51 +2,51 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
-      <div class="container">
-        <h2>Courses</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
-      </div>
+        <div class="container">
+            <h2></h2>
+            <p></p>
+        </div>
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Courses Section ======= -->
     <section id="courses" class="courses">
-      <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
 
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
- {{#each mau_vats as | mau_vat|}}
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="course-item">
-              <img src="{{this.Image.data}}" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4>{{this.So_hieu_bttnvn}}</h4>
-                  <p class="price">$169</p>
-                </div>
+            <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                {{#each mau_vats as | mau_vat|}}
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="course-item" style="margin-top: 20px;">
+                        <a href="/mauvat/{{this._id}}">
+                        <img src="{{this.Image.data}}" class="img-fluid" alt="...">
+                        </a>
+                        <div class="course-content">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4>{{this.So_hieu_bttnvn}}</h4>
+                                <p class="price">$169</p>
+                            </div>
 
-                <h3><a href="/mauvat/{{this._id}}">{{this.So_hieu_bttnvn}}</a></h3>
-                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-profile d-flex align-items-center">
-                    <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
-                    <span>{{this.Nguoi_dinh_ten}}</span>
-                  </div>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bx bx-user"></i>&nbsp;50
-                    &nbsp;&nbsp;
-                    <i class="bx bx-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
+                            <h3><a href="/mauvat/{{this._id}}">{{this.So_hieu_bttnvn}}</a></h3>
+                            <p></p>
+                            <div class="trainer d-flex justify-content-between align-items-center">
+                                <div class="trainer-profile d-flex align-items-center">
+                                    <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                                    <span>{{this.Nguoi_dinh_ten}}</span>
+                                </div>
+                                <div class="trainer-rank d-flex align-items-center">
+                                    <i class="bx bx-user"></i>&nbsp;50
+                                    &nbsp;&nbsp;
+                                    <i class="bx bx-heart"></i>&nbsp;65
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                {{/each}}
+                
+
             </div>
-          </div> <!-- End Course Item-->
-{{/each}}
-           <!-- End Course Item-->
-
-         !-- End Course Item-->
 
         </div>
-
-      </div>
     </section><!-- End Courses Section -->
 
-  </main><!-- End #main -->
+</main><!-- End #main -->

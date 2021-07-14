@@ -3,52 +3,52 @@
     <div class="form-group">
       <label for="exampleInputEmail1">Số hiệu BTTNVN</label>
       <input type="text" class="form-control" id="exampleInputEmail1" name="So_hieu_bttnvn"
-        aria-describedby="emailHelp">
+        aria-describedby="emailHelp" value="{{this.So_hieu_bttnvn}}">
       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Tên khoa học</label>
-      <input type="text" class="form-control" name="Ten_kh" id="exampleInputPassword1">
+      <input type="text" class="form-control" value="{{this.Ten_kh}}"name="Ten_kh" id="exampleInputPassword1">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Tên Việt Nam</label>
-      <input type="text" class="form-control" name="Ten_vn" id="">
+      <input type="text" class="form-control" value="{{this.Ten_vn}}"name="Ten_vn" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Tên địa phương</label>
-      <input type="text" class="form-control" name="Ten_dia_phuong" id="">
+      <input type="text" class="form-control"value="{{this.Ten_dia_phuong}}" name="Ten_dia_phuong" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Tên tiếng anh</label>
-      <input type="text" class="form-control" name="Ten_tieng_anh" id="">
+      <input type="text" class="form-control"value="{{this.Ten_tieng_anh}}" name="Ten_tieng_anh" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Thuộc giới</label>
-      <input type="text" class="form-control" name="Gioi" id="">
+      <input type="text" class="form-control" value="{{this.Gioi}}"name="Gioi" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Ngành</label>
-      <input type="text" class="form-control" name="Nganh" id="">
+      <input type="text" class="form-control"value="{{this.Nganh}}" name="Nganh" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Lớp</label>
-      <input type="text" class="form-control" name="Lop" id="">
+      <input type="text" class="form-control"value="{{this.Lop}}" name="Lop" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Bộ</label>
-      <input type="text" class="form-control" name="Bo" id="">
+      <input type="text" class="form-control"value="{{this.Bo}}" name="Bo" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Họ</label>
-      <input type="text" class="form-control" name="Ho" id="">
+      <input type="text" class="form-control"value="{{this.Ho}}" name="Ho" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Giống</label>
-      <input type="text" class="form-control" name="Giong" id="">
+      <input type="text" class="form-control"value="{{this.Giong}}" name="Giong" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Loài</label>
-      <input type="text" class="form-control" name="Loai" id="">
+      <input type="text" class="form-control"value="{{this.Loai}}" name="Loai" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Giới tính</label>
@@ -64,15 +64,15 @@
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Người định tên</label>
-      <input type="text" class="form-control" name="Nguoi_dinh_ten" id="">
+      <input type="text" class="form-control" value="{{this.Nguoi_dinh_ten}}"name="Nguoi_dinh_ten" id="">
     </div>
     <div class="form-group">
       <label for="birthday">Ngày định tên:</label>
-      <input type="date" id="" name="Ngay_dinh_ten">
+      <input type="date" id=""value="{{this.Ngay_dinh_ten}}" name="Ngay_dinh_ten">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Số lượng</label>
-      <input type="number" class="form-control" name="So_luong" id="">
+      <input type="number" class="form-control" value="{{this.So_luong}}"name="So_luong" id="">
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Loại mẫu vật</label>
@@ -84,7 +84,7 @@
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Cao</label>
-      <input type="text" class="form-control" name="Cao" id="">
+      <input type="text" class="form-control"value="{{this.Cao}}" name="Cao" id="">
       <select name="dvcc" required="">
 
         <option value="mm" selected>mm</option>
@@ -95,7 +95,7 @@
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Rộng</label>
-      <input type="text" class="form-control" name="Rong" id="">
+      <input type="text" class="form-control"value="{{this.Rong}}" name="Rong" id="">
       <select name="dvcr" required="">
 
         <option value="mm" selected>mm</option>
@@ -105,7 +105,7 @@
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Dài</label>
-      <input type="text" class="form-control" name="Dai" id="">
+      <input type="text" class="form-control"value="{{this.Dai}}" name="Dai" id="">
       <select name="dvcd" required="">
 
         <option value="mm" selected>mm</option>
@@ -116,7 +116,7 @@
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Trọng lượng</label>
-      <input type="text" class="form-control" name="Trong_luong" id="">
+      <input type="text" class="form-control"value="{{this.Trong_luong}}" name="Trong_luong" id="">
       <select name="dvtrl" required="">
 
         <option value="g" selected>g</option>
@@ -125,7 +125,7 @@
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Thể tích</label>
-      <input type="text" class="form-control" name="The_tich" id="">
+      <input type="text" class="form-control"value="{{this.The_tich}}" name="The_tich" id="">
       <select name="dvtt" required="">
 
         <option value="mm^3" selected>mm^3</option>
@@ -150,12 +150,12 @@
     <div class="form-group">
       <label for="">Ảnh</label>
       <br>
-      <input type="file" name="Image" id=""><br><br>
+      <input type="file" name="Image" value="{{this.Image}}"id=""><br><br>
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Video</label>
       <br>
-      <input type="file" name="Video" id=""><br><br>
+      <input type="file" name="Video"value="{{this.Video}}" id=""><br><br>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>

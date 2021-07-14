@@ -1,4 +1,5 @@
 const route1 = require('./MauVat');
+const route2 = require('./user');
 
 function route(app) {
     app.get('/mauvat/add', (req, res) => {
@@ -12,6 +13,8 @@ function route(app) {
     })
     app.get('/', (req, res) => {
         return res.render('home')
+
     });
+    app.use('/user', route2)
 }
 module.exports = route;
